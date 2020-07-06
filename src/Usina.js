@@ -12,7 +12,7 @@ class Usina {
         this.potenciaTotal = potenciaTotal;
     }
     get potencia() {
-        if (this.potenciaTota < 1){
+        if (this.potenciaTotal < 1){
             throw new Error(`No hay suficiente potencia para esta Usina`);
         }
         return this.potenciaTotal;
