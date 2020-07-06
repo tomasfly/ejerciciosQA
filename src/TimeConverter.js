@@ -1,8 +1,10 @@
-function timeConverter(number){
+function TimeConvert(number){
+    if(number < 1){
+        return null
+    }
     const horas = number / 60;
     const mins = number % 60;
-    console.log('horas'+Math.floor(horas));
-    console.log('minutos'+mins);
+    return `${Math.floor(horas)} horas ${mins} minutos`
 }
 
-timeConverter(200);
+module.exports = TimeConvert;
