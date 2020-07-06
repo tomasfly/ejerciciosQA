@@ -1,6 +1,12 @@
 {
-  "name": "ejerciciosQA",
+  "name": "ejercicios",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test":"npx jest ./test"
+  },
+  "dependencies": {
+    "jest": "^26.1.0"
+  }
 }
