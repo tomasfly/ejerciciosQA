@@ -4,7 +4,7 @@ function TimeConvert(number){
     }
     const horas = number / 60;
     const mins = number % 60;
-    return `${Math.floor(horas)} horas ${mins} minutos`
+    return `${Math.floor(horas)}:${mins}`
 }
 
 module.exports = TimeConvert;

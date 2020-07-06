@@ -3,8 +3,8 @@ const timeConverter = require('../src/TimeConverter');
 describe('Turbina Especial Test', () => {
 
     test('Turbina especial test case', () => {
-        const res = timeConverter(200);
-        expect(res).toBe('3 horas 20 minutos')
+        const res = timeConverter(63);
+        expect(res).toBe('1:3')
     });
 
     test('Turbina especial test case false case', () => {
