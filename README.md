@@ -5,3 +5,8 @@ The code siumulates a power plant that needs to handle different power supplies.
 Solution includes:
 - OOP 
 - Jest unit testing
+
+## How to execute
+1. Clone project
+2. Run `npm install`
+3. Run `npm run test`
